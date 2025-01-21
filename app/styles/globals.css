@@ -1,0 +1,215 @@
+/* Tailwind's base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles and Reset */
+
+/* Ensures smooth scrolling behavior across the page */
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+/* Box-sizing rule for all elements */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Basic reset for the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom gradient background (light blue to white) */
+.bg-custom-gradient {
+  background: linear-gradient(
+    to bottom,
+    #dceefa,
+    #c9e9ff,
+    #a1c7f7,
+    #bfbefd,
+    #d4d4f7,
+    #f0f6ff,
+    white
+  );
+}
+
+/* Light version of the custom gradient background */
+.bg-custom-gradient-light {
+  background: linear-gradient(
+    to bottom,
+    white 0%,
+    #f3f9fe 30%,
+    #dceefa 50%,
+    #c9e9ff 65%,
+    #e6e6fc 80%,
+    #f0f6ff 90%,
+    white 100%
+  );
+}
+
+/* Gradient text effect (purple to blue) */
+.bg-gradient-text {
+  background: linear-gradient(to bottom, #8421ca, #001e80);
+  -webkit-background-clip: text; /* Safari support */
+  background-clip: text; /* Standard support */
+  color: transparent;
+}
+
+/* Component Styles */
+
+@layer components {
+  /* Button Styles */
+  .btn {
+    @apply bg-black text-white px-4 py-2 rounded-lg inline-flex tracking-tight items-center justify-center;
+  }
+
+  /* Primary button with black background */
+  .btn-primary {
+    @apply bg-black text-white;
+  }
+
+  /* Transparent button text style */
+  .btn-text {
+    @apply text-black bg-transparent;
+  }
+
+  /* Logo image size adjustment */
+  .logo-ticker-image {
+    @apply h-8 w-auto;
+  }
+
+  /* Tag styling (small text with border) */
+  .tag {
+    @apply text-sm inline-flex border border-black/10 px-3 py-1 rounded-lg tracking-tight;
+  }
+
+  /* Section title with gradient text */
+  .section-title {
+    @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text;
+    color: #001e80; /* Fallback color for mobile */
+    -webkit-background-clip: text; /* Safari support */
+    background-clip: text; /* Standard support */
+  }
+
+  /* Section description styling */
+  .section-description {
+    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E];
+  }
+
+  /* Centered section heading */
+  .section-heading {
+    @apply max-w-[540px] mx-auto;
+  }
+
+  /* Card with padding, border, and shadow */
+  .card {
+    @apply p-10 border border-[#555555]/30 rounded-3xl shadow-[0_7px_14px_#EAEAEA] transition-all duration-300 ease-in-out;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  /* Card hover effects */
+  .card:hover {
+    @apply shadow-none;
+    background-color: rgb(245, 249, 252); /* Override to full white on hover */
+    border-color: #9e66b4; /* Slightly darker border on hover */
+  }
+
+  /* "Learn More" button styling */
+  .btn-learn-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #010d3e;
+    color: white;
+    text-align: center;
+    border-radius: 0.375rem;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1) translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* "Learn More" button hover effects */
+  .btn-learn-more:hover {
+    background: #021856;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05) translateY(-4px);
+    color: #e0e0e0;
+  }
+
+  /* "Learn More" button focus effect */
+  .btn-learn-more:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(1, 13, 62, 0.5);
+  }
+
+  /* "Learn More" button active state */
+  .btn-learn-more:active {
+    background: #000a2c;
+    transform: scale(0.98) translateY(0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* Global Utility Classes */
+
+/* Hide scrollbar for a cleaner design */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Testimonial wrapper styling */
+.testimonial-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* List of testimonials with scrolling animation */
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  animation: scrollTestimonials 15s linear infinite;
+}
+
+/* Keyframe animation for scrolling testimonials */
+@keyframes scrollTestimonials {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* Progress bar styling */
+.progress-bar {
+  margin-top: 10px;
+  text-align: center;
+  color: #ffffff;
+  background: #007bff;
+  padding: 8px;
+  border-radius: 4px;
+  animation: fade-in 0.5s;
+}
+
+/* Fade-in animation for the progress bar */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

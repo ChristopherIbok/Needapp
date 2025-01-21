@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Web Development",
+    "image": "/images/services/service-1.jpg",
+    "description": "We create high-quality websites for businesses.",
+    "details": "Responsive design, eCommerce solutions, CMS integration, and more."
+  },
+  {
+    "title": "Digital Marketing",
+    "image": "/images/services/service-2.jpg",
+    "description": "We help you reach your audience effectively.",
+    "details": "SEO, content marketing, social media management, and PPC advertising."
+  },
+  {
+    "title": "Graphic Design",
+    "image": "/images/services/service-3.jpg",
+    "description": "Creating stunning visuals for your brand.",
+    "details": "Logo design, branding, UI/UX, and print materials."
+  },
+  {
+    "title": "Web Development",
+    "image": "/images/services/service-1.jpg",
+    "description": "We create high-quality websites for businesses.",
+    "details": "Responsive design, eCommerce solutions, CMS integration, and more."
+  },
+  {
+    "title": "Digital Marketing",
+    "image": "/images/services/service-2.jpg",
+    "description": "We help you reach your audience effectively.",
+    "details": "SEO, content marketing, social media management, and PPC advertising."
+  },
+  {
+    "title": "Graphic Design",
+    "image": "/images/services/service-3.jpg",
+    "description": "Creating stunning visuals for your brand.",
+    "details": "Logo design, branding, UI/UX, and print materials."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "plan": "Basic",
+    "description": "Ideal for small businesses and personal projects.",
+    "price": "$100/month",
+    "features": ["1 Website", "Basic Support", "1 GB Storage"],
+    "inverse": false,
+    "popular": false
+  },
+  {
+    "plan": "Pro",
+    "description": "For growing businesses with advanced needs.",
+    "price": "$500/month",
+    "features": ["5 Websites", "Priority Support", "10 GB Storage"],
+    "inverse": true,
+    "popular": true
+  },
+  {
+    "plan": "Enterprise",
+    "description": "For large enterprises with custom solutions.",
+    "price": "Custom Pricing",
+    "features": [
+      "Unlimited Websites",
+      "Dedicated Support",
+      "Unlimited Storage"
+    ],
+    "inverse": false,
+    "popular": false
+  },
+  {
+    "plan": "Premium",
+    "description": "For large scale businesses with premium requirements.",
+    "price": "$1000/month",
+    "features": [
+      "Unlimited Websites",
+      "24/7 Premium Support",
+      "Unlimited Storage",
+      "Advanced SEO Optimization",
+      "Dedicated Account Manager"
+    ],
+    "inverse": true,
+    "popular": false
+  }
+]

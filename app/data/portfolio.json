@@ -1,0 +1,34 @@
+[
+  {
+    "title": "E-commerce Website",
+    "image": "/images/portfolio/project-1.jpg",
+    "description": "A fully responsive e-commerce website for a retail business.",
+    "client": "RetailCo",
+    "solution": "Custom CMS and payment integration.",
+    "result": "Increased sales by 30% within 6 months."
+  },
+  {
+    "title": "Tech Startup Website",
+    "image": "/images/portfolio/project-2.jpg",
+    "description": "Website designed for a tech startup specializing in AI solutions.",
+    "client": "TechNova",
+    "solution": "Branding, website design, and backend integration.",
+    "result": "Attracted 50,000 visitors in the first month."
+  },
+  {
+    "title": "Restaurant Booking System",
+    "image": "/images/portfolio/project-1.jpg",
+    "description": "Online booking and reservation system for a restaurant.",
+    "client": "DineIn",
+    "solution": "Custom booking system and menu integration.",
+    "result": "Reduced customer wait time by 40%."
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "/images/portfolio/project-2.jpg",
+    "description": "Personal portfolio website for a freelance designer.",
+    "client": "FreelancerJane",
+    "solution": "Custom design and hosting setup.",
+    "result": "Increased client inquiries by 20%."
+  }
+]

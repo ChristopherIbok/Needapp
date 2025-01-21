@@ -1,0 +1,70 @@
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 12px 16px; /* Spacious padding */
+  border: 2px solid #7c83fd; /* Soft blue border */
+  border-radius: 20px; /* Increased border radius for rounded appearance */
+  background: #1a1a40; /* Darker background for contrast */
+  color: #ffffff; /* White text color */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth hover/focus transitions */
+  box-sizing: border-box; /* Ensures padding is inside the element */
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #cbcbf8; /* Subtle placeholder color */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form select:focus {
+  outline: none; /* Remove default outline */
+  border-color: #9b5de5; /* Purple focus border */
+  box-shadow: 0 0 10px #9b5de5; /* Purple glow effect */
+  transform: scale(1.02); /* Slightly enlarge on focus */
+}
+
+.contact-form button {
+  border-radius: 25px; /* Rounded button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for button */
+  padding: 14px 20px; /* Add padding to make the button more spacious */
+  font-size: 16px; /* Adjust font size for better readability */
+}
+
+.contact-form-container {
+  max-width: 800px; /* Increase the max width of the form container */
+  margin: 0 auto; /* Center the form */
+  padding: 20px; /* Add some padding to the form container */
+}
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Increase space between form elements */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Add spacing between form groups */
+}
+
+.label-text {
+  color: rgb(2, 2, 32); /* Ensure labels are white */
+}
+
+.submit-btn {
+  background-color: #06040e;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 14px 20px;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  background-color: #7c4d9b;
+}
