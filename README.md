@@ -22,7 +22,7 @@ A premium, fully responsive Next.js template designed specifically for businesse
 
 ## Live Demo
 
-Check out the live demo of the project here: [Live Demo]
+Check out the live demo of the project here: [Live Demo](https://nextjs-business-agency-template.netlify.app/)
 
 ## Prerequisites
 
