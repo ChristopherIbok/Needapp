@@ -1468,6 +1468,11 @@ If you have any questions or need further assistance, feel free to reach out to 
 
 **Email**: [aerisxbase@gmail.com] (mailto:aerisxbase@gmail.com)
 
+## Thank You!
+
+A big thank you to everyone who purchases or uses this template! 🎉 Your support means a lot to me as I'm just starting out. I hope this template helps you create an amazing website for your business.
+
 ## License
 
 This project is licensed under the MIT License.
+
