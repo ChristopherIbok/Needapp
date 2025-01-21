@@ -2,6 +2,8 @@
 
 A premium, fully responsive Next.js template designed specifically for businesses, agencies, and consulting firms. This modern and feature-rich template provides everything you need to create a sleek, high-performance website with minimal effort. Whether you're launching a corporate site, showcasing services, or building an online portfolio, this template offers the flexibility and scalability to match your needs.
 
+![Responsive-view](https://github.com/user-attachments/assets/4e766d2d-c54e-43ac-b341-cbd6518116fa)
+
 ## Key Features:
 
 - **Responsive & Adaptive Design**: Seamlessly optimized for desktop, tablet, and mobile devices, ensuring a perfect user experience across all screen sizes.
@@ -17,6 +19,10 @@ A premium, fully responsive Next.js template designed specifically for businesse
 - **SEO Optimized**: Built with SEO best practices to ensure your website is easily discoverable and ranks well in search engines.
 
 - **Fast Load Times**: Thanks to Next.js' automatic code splitting, your website will load faster, ensuring a smooth and quick browsing experience for visitors.
+
+## Live Demo
+
+Check out the live demo of the project here: [Live Demo]
 
 ## Prerequisites
 
@@ -1330,11 +1336,12 @@ Here is the relevant file structure related to the Contact form in the project:
 1. Go to [EmailJS](https://www.emailjs.com/) and sign up for a free account.
 2. After signing up, log in to your account and go to the **Dashboard**.
 3. Create an **Email Service** (e.g., Gmail, Outlook, etc.) and note down the **Service ID**.
-   ![EmailJs - ServiceID](https://github.com/user-attachments/assets/ef8ae46f-d7f0-4f9b-befb-0db113801474)
+   ![EmailJs - ServiceID](https://github.com/user-attachments/assets/133abe6d-0ed1-4d9f-a222-d416dd476c18)
 4. Create an **Email Template** and note down the **Template ID**.
-   ![EmailJs - TemplateID](https://github.com/user-attachments/assets/49ecac5b-efa0-48f3-b966-e8b804d0516a)
+   ![EmailJs - TemplateID](https://github.com/user-attachments/assets/ab3e9cc4-a955-4178-92bf-ad20515d5ac0)
 5. From the **Account Settings**, copy the **Public Key**.
-   ![EmailJs - PublicKey](https://github.com/user-attachments/assets/a6f6590f-b9e0-405d-9372-69e71bd2acce)
+   ![EmailJs - PublicKey](https://github.com/user-attachments/assets/2a2d5b7b-48c0-4e89-a380-d83806be305e)
+
 
 ## 2. Configure Environment Variables
 
@@ -1428,6 +1435,7 @@ Once the project is deployed, users can fill out the contact form and submit the
 # Footer Component
 
 A responsive and stylish footer component built with React and Tailwind CSS. Includes social media links, quick navigation links, and a "Back to Top" button.
+![Footer](https://github.com/user-attachments/assets/faa2284c-3478-4d12-985c-33b20c34a5b5)
 
 ## Features
 
