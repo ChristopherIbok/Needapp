@@ -1312,8 +1312,6 @@ Here is the relevant file structure related to the Contact form in the project:
 .
 ├── components
 │   └── ContactForm.tsx  # Main contact form component
-├── pages/api
-│   └── send-email.ts    # Backend API route for sending emails
 ├── styles
 │   └── contactPage.css  # CSS for styling the contact form
 ├── utils
